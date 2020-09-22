@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Documentation</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link  rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body id="flexbox">
+   <main id="main-doc">
+      <section class="main-section" id="Introduction">
+         <header class="title">
+             Introduction
+         </header>
+         <p>Java is a programming language and an informatic platform in sale for the first time in 1995 by Sun Microsystems.</p>
+         <p>The purpose of this tutorial is to quick introduce you to the basics of java in a well-knowed first steps called "Hello World". For this we are going to write a short and simple programm to print a text line.</p>
+         
+      </section>
+      <section class="main-section" id="Hello_World">
+         <header class="title">
+             Hello World
+         </header>
+         <p>The programm will look like this. We will go step by step explaining what does every sentence mean.</p>
+         <pre>
+           
+            1  <span class="comment">//Text printing programm</span> 
+            2  
+            3    public class Welcome1
+            4    {
+            5     <span class="comment">//the main method starts the app in Java</span>
+            6       public static void main( String[] args)
+            7       {
+            8         System.out.println( "Welcome to Java coding!);
+            9       }<span class="comment">//end of main method</span>
+            10   }<span class="comment">//end of Welcome1 class</span>
+         </pre>
+         <p>We'll see how to write this programm in our IDE of preference. For more info about IDE and how to install it visit our <a href="#">IDE and platforms</a> page</p>
+             
+         
+      </section>
+      <section class="main-section" id="Comments">
+         <header class="title">
+             Comments
+         </header>
+         <p>Comments are a good practice in coding. They help us to:</p>
+         <ul>
+             <li>Order our ideas</li>
+             <li>Understand the function of line of code</li>
+             <li>Communicate our ideas to other programmers</li>
+             <li>Give structure to our programm</li>
+         </ul>
+         <p>We can put comments in our programm in two ways:</p>
+         <code>//this is a comment</code>
+         <p>This type of comment is for only 1 line of text. All text int that line is a comment</p>
+         <code>/* this is a multi-line comment */</code>
+         <p>This other type is for comments in more than one line. For example:</p>
+         
+         <pre>/*this
+is
+a multi-line
+comment */
+         </pre>
+         
+         
+      </section>
+      <section class="main-section" id="Class_declaration">
+         <header class="title">
+             Class declaration
+         </header>
+         <p>For the start we need to declarate a class. We can see this in line 3 of our code. All programm has a class that you have to define. The 'class' keyword declarates a class and the name of this class must come inmediately</p>
+         <p>We can name this class with and identifier. An identifier is a way to write names that have some characteristics.</p>
+         <p>In programming we commonly use names for identification of variables that are clear and well notated. We use camel-case, meaning to intercalate Low and upper case like this examples:</p>
+         <ul>
+             <li>ThisIsCamelCase</li>
+             <li>NiceIdentifierName</li>
+             <li>VariableSuperDuperTruper</li>
+         </ul>
+         <p>We can also use numbers in our identifiers. A lot of IDE only support numbers at the end of the identifier, NEVER in the beggining. For example:</p>
+         <ul>
+             <li>VariableX1</li>
+             <li>NameOfTeacher2</li>
+             <li>CommonCamelCaseFor4</li>
+         </ul>
+      </section>
+          <section class="main-section" id="Method_declaration">
+             <header class="title">
+                 Method declaration
+             </header>
+             <p>The 6 line</p>
+             <code>public static void main( String[] args)</code> 
+              
+             <p>is a method declaration. This is the start point of any Java application. The parenthesis after the 'main' word indicate that this is a construction block of the programm, which is called <span class="bold_text">method</span>. Java declarations often have one or more methods. In a Java application, just one of this methods must be main and it has to be defined as the 6 line. The keyword <span class="bold_text">void</span> means this method won't return any information.
+             The words <span class="bold_text">String[] args</span> between parenthesis are a part of the main method declaration. </p>
+             <p>The left key in line 7 beggins the <span class="bold_text">body of the method declaration</span>. Its corresponding right key must end it in line 9.</p>
+             <code>String []args</code><br>
+      </section>
+      <section class="main-section" id="Output_operations">
+         <header class="title">
+             Output operations
+         </header>
+         <p>The line 8</p>
+         <code>System.out.println( "Welcome to Java coding!);</code>
+         <p>tells the computer to make a computation; meaning to print a string of characters in between the double quotes (without include them).</p>
+         <p><span class="bold_text">System.out</span> is known as the <span class="bold_text">standard output object</span>. It enables the Java aplications to show information in the comand window.</p>
+         <p>The method <span class="bold_text">System.out.println</span> shows (prints) a tex line in the comand window. The string in the parenthesis in line 8 is the <span class="bold_text">argument</span> for the method.</p>
+      </section>
+   </main>
+   
+   <nav id="navbar">
+      <header>
+          Hello world in Java
+      </header>
+      <a class="nav-link" href=#Introduction>Introduction</a><br>
+      <a class="nav-link" href=#Hello_World>Hello World</a><br>
+      <a class="nav-link" href=#Comments>Comments</a><br>
+      <a class="nav-link" href=#Class_declaration>Class declaration</a><br>
+      <a class="nav-link" href=#Method_declaration>Method declaration</a><br>
+      <a class="nav-link" href=#Output_operations>Output operations</a><br>
+       
+   </nav>
+    
+</body>
+</html>
